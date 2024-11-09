@@ -1,0 +1,97 @@
+.volunteering-page {
+  padding: 20px;
+  text-align: center;
+  color: rgb(219, 219, 229);
+  font-family: Arial, sans-serif;
+  background: rgb(67,39,237);
+background: linear-gradient(179deg, rgba(67,39,237,1) 0%, rgba(94,48,209,1) 0%, rgba(17,11,37,1) 0%, rgba(77,72,87,1) 0%, rgba(17,12,20,1) 20%, rgba(24,2,25,1) 31%, rgba(21,2,22,1) 44%, rgba(18,2,19,1) 55%, rgba(19,5,20,1) 58%, rgba(27,2,31,1) 70%, rgba(16,1,19,1) 89%, rgba(21,0,22,1) 93%, rgba(39,1,48,1) 99%, rgba(190,183,203,1) 100%, rgba(168,161,160,1) 100%, rgba(82,16,226,1) 100%);
+}
+
+.volunteering-page h1 {
+  font-size: 2.5em;
+  color:rgb(236, 236, 239); /* Changed to white for better contrast */
+  margin-bottom: 20px;
+  
+
+}
+
+.header {
+  /* Removed background color */
+  width: 100%;
+  background: black;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  position: relative;
+  transition: transform 0.3s;
+
+}
+
+.volunteering-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery-block,
+.description-block {
+  background: #f7f2f2; /* Keep this background for content blocks */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-block h2,
+.description-block h2 {
+  color: #3c4e76;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.gallery-container {
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  margin-top: 10px;
+  height: 150px; /* Set height to contain images */
+}
+
+.image-scroll {
+  display: flex;
+  animation: scroll 30s linear infinite;
+}
+
+.gallery-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Continuous scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
+
+/* Pause animation on hover */
+.image-scroll:hover {
+  animation-play-state: paused;
+}
+
+.description-block p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: justify
+}

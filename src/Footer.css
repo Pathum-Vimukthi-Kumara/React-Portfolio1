@@ -1,0 +1,38 @@
+/* src/components/Footer.css */
+
+.footer {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(224,11,218,1) 0%, rgba(142,135,141,1) 0%, rgba(2,4,20,1) 0%);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+   
+    position: relative;
+    flex:1;
+   
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin: 0 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon img {
+    width: 30px; /* Set a uniform width for all icons */
+    height: 30px; /* Set a uniform height for all icons */
+    transition: transform 0.2s;
+}
+
+.social-icon:hover img {
+    transform: scale(1.1); 
+}

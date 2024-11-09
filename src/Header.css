@@ -1,0 +1,72 @@
+/* src/components/Header.css */
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    width: 800px; /* Fixed width for larger screens */
+    height: 20px; /* Height of the rectangle */
+    background-color: #222; /* Dark background color */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link i {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  
+  .nav-link:hover {
+    color: #ff4500; /* Change color on hover */
+  }
+  
+  /* Responsive for tablets and smaller screens */
+  @media (max-width: 768px) {
+    .header {
+      width: 100%; /* Make the header take full width on mobile */
+      top: 0; /* Move to the very top */
+      left: 0;
+      transform: none;
+      height: 40px; /* Reduce height */
+      padding: 0 10px;
+      justify-content: space-around; /* Space out items */
+    }
+  
+    .nav-link {
+      font-size: 14px; /* Smaller font size */
+      padding: 5px; /* Reduce padding */
+    }
+  
+    .nav-link span {
+      display: none; /* Hide text labels to fit icons only */
+    }
+    
+    .nav-link i {
+      font-size: 20px; /* Increase icon size for better visibility */
+      margin-right: 0;
+    }
+  }
+  
