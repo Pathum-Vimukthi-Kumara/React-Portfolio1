@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/css/main.515f515d.css",
-    "main.js": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/main.a9f8c7eb.js",
+    "main.js": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/main.bb0233ed.js",
     "static/js/453.1407b060.chunk.js": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/453.1407b060.chunk.js",
     "static/media/fa-solid-900.ttf": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Pathum-Vimukthi-Kumara/React-Portfolio1/index.html",
     "main.515f515d.css.map": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/css/main.515f515d.css.map",
-    "main.a9f8c7eb.js.map": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/main.a9f8c7eb.js.map",
+    "main.bb0233ed.js.map": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/main.bb0233ed.js.map",
     "453.1407b060.chunk.js.map": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.515f515d.css",
-    "static/js/main.a9f8c7eb.js"
+    "static/js/main.bb0233ed.js"
   ]
 }
