@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/css/main.d558d375.css",
-    "main.js": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/main.672818d1.js",
-    "static/js/453.1407b060.chunk.js": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/453.1407b060.chunk.js",
-    "static/media/fa-solid-900.ttf": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/fa-regular-400.woff2": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/fa-v4compatibility.ttf": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "index.html": "/Pathum-Vimukthi-Kumara/React-Portfolio1/index.html",
-    "main.d558d375.css.map": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/css/main.d558d375.css.map",
-    "main.672818d1.js.map": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/main.672818d1.js.map",
-    "453.1407b060.chunk.js.map": "/Pathum-Vimukthi-Kumara/React-Portfolio1/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/React-Portfolio1/static/css/main.0efc8d60.css",
+    "main.js": "/React-Portfolio1/static/js/main.059481e6.js",
+    "static/js/453.1407b060.chunk.js": "/React-Portfolio1/static/js/453.1407b060.chunk.js",
+    "static/media/fa-solid-900.ttf": "/React-Portfolio1/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/React-Portfolio1/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/React-Portfolio1/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/React-Portfolio1/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/React-Portfolio1/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/React-Portfolio1/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/React-Portfolio1/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React-Portfolio1/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/React-Portfolio1/index.html",
+    "main.0efc8d60.css.map": "/React-Portfolio1/static/css/main.0efc8d60.css.map",
+    "main.059481e6.js.map": "/React-Portfolio1/static/js/main.059481e6.js.map",
+    "453.1407b060.chunk.js.map": "/React-Portfolio1/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d558d375.css",
-    "static/js/main.672818d1.js"
+    "static/css/main.0efc8d60.css",
+    "static/js/main.059481e6.js"
   ]
 }
