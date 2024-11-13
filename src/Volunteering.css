@@ -9,7 +9,7 @@ background: linear-gradient(179deg, rgba(67,39,237,1) 0%, rgba(94,48,209,1) 0%, 
 
 .volunteering-page h1 {
   font-size: 2.5em;
-  color:rgb(236, 236, 239); /* Changed to white for better contrast */
+  color:rgb(236, 236, 239);
   margin-bottom: 20px;
   
 
@@ -38,7 +38,7 @@ background: linear-gradient(179deg, rgba(67,39,237,1) 0%, rgba(94,48,209,1) 0%, 
 
 .gallery-block,
 .description-block {
-  background: #f7f2f2; /* Keep this background for content blocks */
+  background: #f7f2f2;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -56,7 +56,7 @@ background: linear-gradient(179deg, rgba(67,39,237,1) 0%, rgba(94,48,209,1) 0%, 
   position: relative;
   border-radius: 8px;
   margin-top: 10px;
-  height: 150px; /* Set height to contain images */
+  height: 150px; 
 }
 
 .image-scroll {
@@ -73,7 +73,7 @@ background: linear-gradient(179deg, rgba(67,39,237,1) 0%, rgba(94,48,209,1) 0%, 
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Continuous scrolling animation */
+
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -83,7 +83,7 @@ background: linear-gradient(179deg, rgba(67,39,237,1) 0%, rgba(94,48,209,1) 0%, 
   }
 }
 
-/* Pause animation on hover */
+
 .image-scroll:hover {
   animation-play-state: paused;
 }
