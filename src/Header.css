@@ -1,13 +1,13 @@
-/* src/components/Header.css */
+
 
 .header {
     position: fixed;
     top: 0px;
     left: 50%;
-    transform: translateX(-50%); /* Center horizontally */
-    width: 800px; /* Fixed width for larger screens */
-    height: 20px; /* Height of the rectangle */
-    background-color: #222; /* Dark background color */
+    transform: translateX(-50%); 
+    width: 800px; 
+    height: 20px; 
+    background-color: #222; 
     color: white;
     display: flex;
     align-items: center;
@@ -40,32 +40,32 @@
   }
   
   .nav-link:hover {
-    color: #ff4500; /* Change color on hover */
+    color: #ff4500; 
   }
   
-  /* Responsive for tablets and smaller screens */
+  
   @media (max-width: 768px) {
     .header {
-      width: 100%; /* Make the header take full width on mobile */
-      top: 0; /* Move to the very top */
+      width: 100%; 
+      top: 0; 
       left: 0;
       transform: none;
-      height: 40px; /* Reduce height */
+      height: 40px;
       padding: 0 10px;
-      justify-content: space-around; /* Space out items */
+      justify-content: space-around; 
     }
   
     .nav-link {
-      font-size: 14px; /* Smaller font size */
-      padding: 5px; /* Reduce padding */
+      font-size: 14px; 
+      padding: 5px;
     }
   
     .nav-link span {
-      display: none; /* Hide text labels to fit icons only */
+      display: none; 
     }
     
     .nav-link i {
-      font-size: 20px; /* Increase icon size for better visibility */
+      font-size: 20px; 
       margin-right: 0;
     }
   }
