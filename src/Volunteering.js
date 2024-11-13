@@ -2,7 +2,7 @@ import React from 'react';
 import './Volunteering.css';
 
 const Volunteering = () => {
-  // Sample images for the gallery
+ 
   const images = [
     'volunteering.jpg',
     'volunteering.jpg',
@@ -10,14 +10,14 @@ const Volunteering = () => {
    
   ];
 
-  // Duplicate the images array to create a seamless loop effect
+ 
   const scrollingImages = [...images, ...images];
 
   return (
     <div className="volunteering-page">
       <h1>Volunteering</h1>
       <div className="volunteering-content">
-        {/* Scrolling Gallery Block */}
+       
         <div className="gallery-block">
           <h2>Volunteering Gallery</h2>
           <div className="gallery-container">
@@ -29,7 +29,7 @@ const Volunteering = () => {
           </div>
         </div>
 
-        {/* Description Block */}
+     
         <div className="description-block">
           <h2>About My Volunteering</h2>
           <p>
