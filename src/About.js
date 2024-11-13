@@ -11,23 +11,23 @@ const images = [
 const About = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Function to go to the next image
+
   const nextImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
-  // Function to go to the previous image
+ 
   const prevImage = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
-  // Set up an automatic slideshow with a fixed interval
-  useEffect(() => {
-    const interval = setInterval(nextImage, 3000); // Change image every 3 seconds
 
-    return () => clearInterval(interval); // Cleanup interval on component unmount
+  useEffect(() => {
+    const interval = setInterval(nextImage, 3000); 
+
+    return () => clearInterval(interval); 
   }, []);
 
   return (
