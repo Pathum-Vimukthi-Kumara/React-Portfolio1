@@ -28,8 +28,8 @@
 }
 
 .social-icon img {
-    width: 30px; /* Set a uniform width for all icons */
-    height: 30px; /* Set a uniform height for all icons */
+    width: 30px; 
+    height: 30px; 
     transition: transform 0.2s;
 }
 
