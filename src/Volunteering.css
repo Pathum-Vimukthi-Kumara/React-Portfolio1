@@ -16,7 +16,7 @@ background: linear-gradient(179deg, rgba(67,39,237,1) 0%, rgba(94,48,209,1) 0%, 
 }
 
 .header {
-  /* Removed background color */
+  
   width: 100%;
   background: black;
   border-radius: 15px;
