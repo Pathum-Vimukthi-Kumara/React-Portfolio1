@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Portfolio1/static/css/main.01838dbd.css",
-    "main.js": "/React-Portfolio1/static/js/main.17993b60.js",
-    "static/js/453.1407b060.chunk.js": "/React-Portfolio1/static/js/453.1407b060.chunk.js",
-    "static/media/fa-solid-900.ttf": "/React-Portfolio1/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/React-Portfolio1/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/fa-solid-900.woff2": "/React-Portfolio1/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/React-Portfolio1/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/React-Portfolio1/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/fa-regular-400.woff2": "/React-Portfolio1/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/fa-v4compatibility.ttf": "/React-Portfolio1/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/React-Portfolio1/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "index.html": "/React-Portfolio1/index.html",
-    "main.01838dbd.css.map": "/React-Portfolio1/static/css/main.01838dbd.css.map",
-    "main.17993b60.js.map": "/React-Portfolio1/static/js/main.17993b60.js.map",
-    "453.1407b060.chunk.js.map": "/React-Portfolio1/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.b9fc0c6e.css",
+    "main.js": "/static/js/main.83ccdd28.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/index.html",
+    "main.b9fc0c6e.css.map": "/static/css/main.b9fc0c6e.css.map",
+    "main.83ccdd28.js.map": "/static/js/main.83ccdd28.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01838dbd.css",
-    "static/js/main.17993b60.js"
+    "static/css/main.b9fc0c6e.css",
+    "static/js/main.83ccdd28.js"
   ]
 }
