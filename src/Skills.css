@@ -1,0 +1,120 @@
+/* Overall Page Styling */
+.skills-page {
+  text-align: center;
+  width: 100vw;
+  padding-top: 20px;
+  height: 100vh;
+  background-color: #0f0118; /* Dark Purple background */
+    background-image:
+      linear-gradient(0deg, rgba(4, 0, 7, 0.8) 1px, transparent 1px),  /* Dark Purple grid lines with opacity */
+      linear-gradient(90deg, rgba(31, 3, 50, 0.8) 1px, transparent 1px),  /* Dark Purple grid lines with opacity */
+      radial-gradient(circle at 50% 0%, rgba(9, 0, 6, 0.3), transparent 50%),  /* Dark shine at the top center */
+      radial-gradient(circle at 30% 80%, rgba(20, 1, 15, 0.6), transparent 50%),  /* Dark shine effect */
+      radial-gradient(circle at 70% 80%, rgba(26, 1, 17, 0.6), transparent 50%);  /* Dark shine effect */
+    background-size: 40px 40px, 40px 40px, cover, cover, cover;
+  background-blend-mode: overlay, overlay, normal, normal, normal;
+}
+
+.skills-page h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Skills Container */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Display skills in four columns */
+  gap: 30px;
+  justify-items: center;
+  padding: 0 20px;
+}
+
+@media (max-width: 1024px) {
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr); /* Display skills in three columns for medium screens */
+  }
+  .skills-page {
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+  }
+  .skills-page {
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-container {
+    grid-template-columns: 1fr; /* Single column for very small screens */
+  }
+  .skills-page {
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
+  }
+}
+
+/* Skill Card */
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(18, 18, 18, 0.9);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 15px;
+  width: 120px;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+.skill p {
+  font-size: 1em;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/* Skill Icon */
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.progress-text {
+  font-size: 0.8em;
+}

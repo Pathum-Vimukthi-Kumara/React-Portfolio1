@@ -1,0 +1,1 @@
+Skills.js and Skills.css have been removed from the project as per user request.
