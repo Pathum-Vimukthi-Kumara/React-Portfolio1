@@ -10,8 +10,6 @@ import Certificate from './Certificate';
 import Volunteering from './Volunteering';
 import Project from './Project';
 import GetInTouch from './GetInTouch';
-import Portfolio from './Portfolio';
-
 // Handles scroll to section based on path
 function ScrollHandler({ sections }) {
   const location = useLocation();
@@ -33,7 +31,16 @@ function ScrollHandler({ sections }) {
     if (ref?.current) {
       ref.current.scrollIntoView({ behavior: 'smooth' });
     }
-  }, [location]);
+  }, [
+    location,
+    sections.homeRef,
+    sections.aboutRef,
+    sections.certificateRef,
+    sections.volunteeringRef,
+    sections.projectRef,
+    sections.getInTouchRef,
+    sections.portfolioRef
+  ]);
 
   return null;
 }
